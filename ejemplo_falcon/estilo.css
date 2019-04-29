@@ -1,8 +1,6 @@
 * {
 	padding:0;
 	margin:0;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
@@ -85,6 +83,8 @@ header nav ul li .caret {
 	margin-right:0px;
 }
 
+
+/* Tamaño moviles*/
 @media screen and (max-width: 800px) {
 	body {
 		padding-top:80px;
@@ -148,3 +148,4 @@ header nav ul li .caret {
 		float: right;
 	}
 }
+

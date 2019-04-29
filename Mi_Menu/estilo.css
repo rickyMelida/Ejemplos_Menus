@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+nav {
+	display: block;
+	background: #000; 
+	width: 100%;
+}
+
+#btn-menu {
+	display: none;
+}
+
+label img {
+	margin-left: 2%;
+}
+
+#menu {
+	margin-left: 5%;
+	transition: all 0.8s;
+}
+
+ul li {
+	list-style: none;
+	font: normal 21px Cambria;
+	padding: 5px 0;
+	margin: 5px 0;
+}
+
+li:hover {
+	cursor: pointer;
+}
+
+#mas ul{
+	display: none;
+}
+
+
+#mas_todo {
+	margin-left: 10%;
+}
+
+img:hover {
+	cursor: pointer;
+}
+
+h1 {
+	position: absolute;
+	color: #fff;
+	margin-left: 60px;
+}
+
+#btn-menu:checked ~ #menu{
+	margin-left: -100%;
+}
+
+@media(min-width: 940px) {
+	label img{
+		display: none;
+	}
+
+	h1 {
+		right: 50px;
+	}
+
+	#menu {
+		display: flex;
+		margin-left: 0;
+	}
+
+	#menu li {
+		padding-left: 5%;
+	}
+	
+
+
+}

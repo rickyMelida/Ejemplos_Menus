@@ -71,10 +71,27 @@ h1 {
 		margin-left: 0;
 	}
 
-	#menu li {
+	ul li {
 		padding-left: 5%;
 	}
-	
 
+	#mas_todo {
+		position: absolute;
+		background: #000;
+	}
+
+	#mas {
+		z-index: 1000;
+	}
+
+	#mas_todo {
+		margin-right: 300px;
+		top: 5%;
+		left: 150px;
+		color: red;
+		padding: 2% 0;
+		width: 20%;
+	}	
+	
 
 }

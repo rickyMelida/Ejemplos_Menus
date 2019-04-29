@@ -17,11 +17,7 @@ $('#mas').hover(function() {
 
 
 $("#mas").click(function() {
-	if(ancho_vent > 940) {
-		$('#mas_todo').css('width', 100 + 'px');
-		slider();
-	
-	}else {		
+	if(ancho_vent < 940) {
 		slider();
 	}
 });
